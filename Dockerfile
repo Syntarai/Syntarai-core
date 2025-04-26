@@ -1,7 +1,7 @@
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 WORKDIR /app
 
 COPY . .
 
-CMD ["python", "-m", "http.server", "8080"]
+CMD ["python3"]
